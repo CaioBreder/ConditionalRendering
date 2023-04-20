@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navbar Example</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<style>
+		.content {
+			display: none;
+			padding: 20px;
+			background-color: #eee;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Navbar Example</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#" data-target="home">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#" data-target="about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#" data-target="joke">Funny Joke</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="content" id="home">
+			<h1>Home Content</h1>
+			<p>This is the content for the Home page.</p>
+		</div>
+		<div class="content" id="about">
+			<h1>About Content</h1>
+			<p>This is the About page.</p>
+		</div>
+		<div class="content" id="joke">
+			<h1>Funny Joke Content</h1>
+			<p>Which is faster, hot or cold? Hot, because you can catch cold.</p>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<script src="script.js"></script>
+
+</body>
+</html>
